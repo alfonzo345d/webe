@@ -1,0 +1,30 @@
+{
+  "name": "ecomerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "fs-extra": "^10.0.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.2.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "timeago.js": "^4.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "luis diaz",
+  "license": "ISC"
+}
